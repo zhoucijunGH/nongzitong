@@ -1,0 +1,98 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "果账通",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/open/open",
+			"style": {
+				"navigationBarTitleText": "开单"
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "流水",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/orders/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/fruits/fruits",
+			"style": {
+				"navigationBarTitleText": "果品档案"
+			}
+		},
+		{
+			"path": "pages/debts/debts",
+			"style": {
+				"navigationBarTitleText": "欠款汇总"
+			}
+		},
+		{
+			"path": "pages/daily/daily",
+			"style": {
+				"navigationBarTitleText": "日结报表"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#8a8f99",
+		"selectedColor": "#07c160",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "工作台",
+				"iconPath": "static/tab/home.png",
+				"selectedIconPath": "static/tab/home-on.png"
+			},
+			{
+				"pagePath": "pages/open/open",
+				"text": "开单",
+				"iconPath": "static/tab/add.png",
+				"selectedIconPath": "static/tab/add-on.png"
+			},
+			{
+				"pagePath": "pages/orders/orders",
+				"text": "流水",
+				"iconPath": "static/tab/list.png",
+				"selectedIconPath": "static/tab/list-on.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tab/mine.png",
+				"selectedIconPath": "static/tab/mine-on.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "果账通",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#f5f6f7"
+	}
+}
